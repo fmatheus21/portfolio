@@ -1,0 +1,62 @@
+<div class="art-menu-bar">
+  <div class="art-menu-bar-frame">
+    <div class="art-menu-bar-header">
+      <a class="art-menu-bar-btn">
+        <span></span>
+      </a>
+    </div>
+
+    <!-- current page title -->
+    <div class="art-current-page">{{ titlePage }}</div>
+    <!-- current page title end -->
+
+    <!-- scroll frame -->
+    <div class="art-scroll-frame">
+      <nav id="swupMenu">
+        <ul class="main-menu">
+          <li
+            class="menu-item"
+            [routerLinkActive]="['current-menu-item']"
+            [routerLinkActiveOptions]="{ exact: true }"
+            (isActiveChange)="loadTitlePage()">
+            <a [routerLink]="['/home']">Home</a>
+          </li>
+
+          <li class="menu-item" [routerLinkActive]="['current-menu-item']" [routerLinkActiveOptions]="{ exact: true }">
+            <a [routerLink]="['/summary']">Resumo</a>
+          </li>
+
+          <li
+            class="menu-item"
+            [routerLinkActive]="['current-menu-item']"
+            [routerLinkActiveOptions]="{ exact: true }"></li>
+
+          <li class="menu-item" [routerLinkActive]="['current-menu-item']" [routerLinkActiveOptions]="{ exact: true }">
+            <a [routerLink]="['/portfolio']">Portfólio</a>
+          </li>
+
+          <li
+            class="menu-item"
+            [routerLinkActive]="['current-menu-item']"
+            [routerLinkActiveOptions]="{ exact: true }"></li>
+
+          <li class="menu-item" [routerLinkActive]="['current-menu-item']" [routerLinkActiveOptions]="{ exact: true }">
+            <a [routerLink]="['/contact']">Contato</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- language change -->
+      <ul class="art-language-change">
+        <!-- language item -->
+        <li><a href="#.">FR</a></li>
+        <!-- language item -->
+        <li class="art-active-lang"><a href="#.">PT</a></li>
+      </ul>
+      <!-- language change end -->
+    </div>
+    <!-- scroll frame end -->
+  </div>
+  <!-- menu bar frame -->
+</div>
+<!-- menu bar end -->

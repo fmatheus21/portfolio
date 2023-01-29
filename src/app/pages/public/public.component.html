@@ -1,0 +1,31 @@
+<div class="art-app">
+  <div class="art-mobile-top-bar"></div>
+
+  <div class="art-app-wrapper">
+    <div class="art-app-container">
+      <app-info-bar></app-info-bar>
+
+      <!-- content -->
+      <div class="art-content">
+        <div class="art-curtain"></div>
+
+        <!-- top background -->
+        <div class="art-top-bg">
+          <div class="art-top-bg-overlay"></div>
+        </div>
+        <!-- top background -->
+
+        <!-- container -->
+        <div class="transition-fade" id="swup">
+          <div id="scrollbar" class="art-scroll-frame">
+            <router-outlet></router-outlet>
+          </div>
+        </div>
+        <!-- container -->
+      </div>
+      <!-- content -->
+
+      <app-menu-bar></app-menu-bar>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="art-section-title">
+        <div class="art-title-frame">
+          <h4>Serviços</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6" *ngFor="let service of services">
+      <div class="art-a art-service-icon-box">
+        <div class="art-service-ib-content">
+          <h5 class="mb-15">{{ service.title }}</h5>
+          <div class="mb-15">{{ service.description }}</div>
+          <div class="art-buttons-frame">
+            <a [routerLink]="['/contact']" class="art-link art-color-link art-w-chevron">Orçamento</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,356 @@
+[
+  {
+    "services": [
+      {
+        "title": "Sistemas Corporativos",
+        "description": "Desenvolvimento de Sistemas Corporativos tais como: STC, SIG, SAD, SAE, RH, Financeiro, SCE e outros.",
+        "url": "contact"
+      },
+      {
+        "title": "WebSites",
+        "description": "Desenvolvimento de sites Institucionais, Blogs, E-commerce (Loja Virtual), Landing Pages, Hostsites e outros.",
+        "url": "contact"
+      },
+      {
+        "title": "Landing Pages",
+        "description": "Desenvolvimento de páginas altamente otimizadas, que descrevem seu negócio objetivamente e geram conversões para sua empresa.",
+        "url": "contact"
+      }
+    ],
+    "testimonials": [
+      {
+        "client": "Eva Comunicação Visual",
+        "category": "Agência Digital",
+        "description": "Trabalhar com o <mark>Fernando</mark> ao longo desses 3 anos tem sido bem gratificante.  Ele é muiito parceiro e competente.  Projetos quase <mark>\"impossíveis\"</mark> tem sido realizados pela boa vontade, <mark>eficiência</mark> e <mark>honestidade</mark>. Não me vejo tendo outro parceiro tão eficiente quanto o <mark>Fernando</mark>.  Sem dúvida foi a <mark>melhor parceria</mark> de todos os tempos!",
+        "image": "./assets/images/client/testimony/eva.png",
+        "stars": [
+          {
+            "one": true,
+            "two": true,
+            "three": true,
+            "four": true,
+            "five": true
+          }
+        ]
+      },
+      {
+        "client": "Livraria Nobel",
+        "category": "Livraria",
+        "description": "Contratamos o <mark>Fernando</mark> para o desenvolvimento de um sistema financeiro, cujo estamos muito satisfeitos com o resultado. O projeto foi entregue dentro do prazo e tivemos todo o suporte necessário.",
+        "image": "./assets/images/client/testimony/nobel.png",
+        "stars": [
+          {
+            "one": true,
+            "two": true,
+            "three": true,
+            "four": true,
+            "five": true
+          }
+        ]
+      },
+      {
+        "client": "Pram Construtora",
+        "category": "Construção Civil",
+        "description": "A <mark>PRAM Construtora</mark>, contratou o serviço do profissional <mark>Fernando</mark> para a modernização do nosso site. Estamos muito satisfeitos com o serviço e o atendimento prestado.",
+        "image": "./assets/images/client/testimony/pram-construtora.png",
+        "stars": [
+          {
+            "one": true,
+            "two": true,
+            "three": true,
+            "four": true,
+            "five": true
+          }
+        ]
+      },
+      {
+        "client": "Rio Futsal",
+        "category": "Esporte",
+        "description": "A <mark>Rio Futsal</mark> está plenamente satisfeita com os serviços prestados por <mark>Fernando</mark>. Fez um excelente trabalho em nosso novo site e nos deu todo o suporte.",
+        "image": "./assets/images/client/testimony/rio-futsal.png",
+        "stars": [
+          {
+            "one": true,
+            "two": true,
+            "three": true,
+            "four": true,
+            "five": true
+          }
+        ]
+      }
+    ],
+    "brands": [
+      {
+        "title": "ExperImob",
+        "image": "./assets/images/client/logo/experimob.png"
+      },
+      {
+        "title": "Grupo SGM",
+        "image": "./assets/images/client/logo/gruposgm.png"
+      },
+      {
+        "title": "iSonhei",
+        "image": "./assets/images/client/logo/isonhei.png"
+      },
+      {
+        "title": "Ufficio",
+        "image": "./assets/images/client/logo/ufficio.png"
+      }
+    ],
+    "counts": [
+      {
+        "number": 5,
+        "plus": true,
+        "description": "Anos de Experiência"
+      },
+      {
+        "number": 70,
+        "plus": true,
+        "description": "Projetos Concluídos"
+      },
+      {
+        "number": 60,
+        "plus": false,
+        "description": "Clientes Atendidos"
+      },
+      {
+        "number": 98,
+        "plus": false,
+        "description": "Satisfação"
+      }
+    ],
+    "infobar": [
+      {
+        "name": "Fernando Matheus",
+        "profession": "Senior <br/> Software Developer",
+        "cv": "./assets/files/cv.pdf",
+        "titleCountry": "País",
+        "country": "Brasil",
+        "titleCity": "Rio de Janeiro",
+        "city": "Rio de Janeiro",
+        "titleYearBirth": "Idade",
+        "yearBirth": 1982,
+        "avatar": "./assets/images/face-1.png",
+        "languages": [
+          {
+            "id": "circleprog1",
+            "name": "Português",
+            "percent": 100
+          },
+          {
+            "id": "circleprog2",
+            "name": "Inglês",
+            "percent": 30
+          },
+          {
+            "id": "circleprog3",
+            "name": "Espanhol",
+            "percent": 40
+          }
+        ],
+        "skills": [
+          {
+            "id": "lineprog1",
+            "name": "Java",
+            "percent": 80
+          },
+          {
+            "id": "lineprog2",
+            "name": "JPA",
+            "percent": 70
+          },
+          {
+            "id": "lineprog3",
+            "name": "Hibernate",
+            "percent": 70
+          },
+          {
+            "id": "lineprog4",
+            "name": "Angular",
+            "percent": 70
+          },
+          {
+            "id": "lineprog5",
+            "name": "CSS",
+            "percent": 80
+          },
+          {
+            "id": "lineprog6",
+            "name": "Javascript",
+            "percent": 60
+          }
+        ],
+        "knowledges": [
+          {
+            "name": "Spring Boot, Spring Cloud"
+          },
+          {
+            "name": "JPA, Hibernate, oAuth, JWT"
+          },
+          {
+            "name": "Git, Docker, Scrum"
+          },
+          {
+            "name": "Microservices, Kafka, RabbitMQ"
+          }
+        ],
+        "socials": [
+          {
+            "name": "Linkedin",
+            "title": "linkedin",
+            "href": "https://www.linkedin.com/in/fmatheus/",
+            "icon": "fab fa-linkedin-in"
+          },
+          {
+            "name": "Facebook",
+            "title": "Facebook",
+            "href": "#",
+            "icon": "fab fa-facebook"
+          },
+          {
+            "name": "Github",
+            "title": "Github",
+            "href": "https://github.com/fmatheus21",
+            "icon": "fab fa-github"
+          }
+        ]
+      }
+    ],
+    "summary": [
+      {
+        "education": [
+          {
+            "title": "ADS",
+            "institution": "Universidade Estácio de Sá",
+            "year": "2015 - 2017",
+            "description": "O Curso Superior de Tecnologia em <mark>Análise e Desenvolvimento de Sistemas</mark> visa capacitar o profissional a desenvolver, analisar, projetar e implantar sistemas de informação, informatização e automação, de forma a suprir as necessidades crescentes das empresas de todos os portes quanto a otimização visando o aumento da competitividade. ",
+            "href": "./assets/files/summary/ads.png",
+            "title_href": "Diploma"
+          },
+          {
+            "title": "Web Design",
+            "institution": "Coti Informática",
+            "year": "2015 - 2015",
+            "description": "HTML; CSS; JavaScript e Introdução ao Jquery; Bootstrap; Layouts Responsivos",
+            "href": "./assets/files/summary/web_design.png",
+            "title_href": "Certificado"
+          },
+          {
+            "title": "Web Developed Java",
+            "institution": "Coti Informática",
+            "year": "2014 - 2014",
+            "description": "Java Orientado a Objetos; Modelagem UML; JSP; Servlets, JavaBeans, JSTL, Hibernate 4.0, JPA, Struts 2.0, JSF, Primefaces, RichFaces; iReport  5.0, CDI; Mavem; Oracle SQL; Spring MVC; Modelagem de banco de dados, WebServices.",
+            "href": "./assets/files/summary/web_developed_java.png",
+            "title_href": "Certificado"
+          },
+          {
+            "title": "React JS",
+            "institution": "Alura",
+            "year": "2021 - 2021",
+            "description": "Cliclo de Vida dos Componentes",
+            "href": "./assets/files/summary/ciclo_de_vida_dos_componentes.png",
+            "title_href": "Certificado"
+          },
+          {
+            "title": "React JS",
+            "institution": "Alura",
+            "year": "2021 - 2021",
+            "description": "Entendendo com a Biblioteca Funciona.",
+            "href": "./assets/files/summary/entendendo_como_a_biblioteca_funciona.png",
+            "title_href": "Certificado"
+          },
+          {
+            "title": "React JS",
+            "institution": "Alura",
+            "year": "2021 - 2021",
+            "description": "Function Components, uma Abordagem Mderna.",
+            "href": "./assets/files/summary/function_components_uma_abordagem_moderna.png",
+            "title_href": "Certificado"
+          },
+          {
+            "title": "Spring Web MVC",
+            "institution": "Digital Innovation One",
+            "year": "2021 - 2021",
+            "description": "Criando Aplicações Web com Spring Web MVC",
+            "href": "./assets/files/summary/criando_aplicacoes_web_com_spring_web_mvc.png",
+            "title_href": "Certificado"
+          },
+          {
+            "title": "Scrum",
+            "institution": "Digital Innovation One",
+            "year": "2021 - 2021",
+            "description": "Projetos Ágeis co SCRUM",
+            "href": "./assets/files/summary/projetos_ageis_com_scrum.png",
+            "title_href": "Certificado"
+          },
+          {
+            "title": "Kotlin",
+            "institution": "Alura",
+            "year": "2021 - 2021",
+            "description": "Formação Kotlin",
+            "href": "./assets/files/summary/formacao-kotlin.png",
+            "title_href": "Certificado"
+          }
+        ],
+        "works": [
+          {
+            "office": "Senior Java Developer",
+            "company": "Redspark",
+            "year": "2021 - Atual",
+            "description": "Desenvolvimento e manutenção de novas soluções nos projetos do Sesc SP. Utilização de Java 8+, Spring, Angular, JPA, Hibernate, JWT, oAuth2, Git, Scrum.",
+            "outsourcing": "Cliente: Sesc SP"
+          },
+          {
+            "office": "Full Developer | Java, Angular",
+            "company": "Meta IT",
+            "year": "2021 - 2021",
+            "description": "Desenvolvimento e manutenção de novas soluções nos projetos do Ministério da Justiça. Utilização de Java 8+, Spring, Angular, JPA, Hibernate, JWT, oAuth2, Git, Scrum.",
+            "outsourcing": "Cliente: Ministério da Justiça"
+          },
+          {
+            "office": "Full Developer | Java, Angular",
+            "company": "Micro Empreendedor",
+            "year": "2017 - 2020",
+            "description": "Desenvolvimento de sites, sistemas corporativos, e-commerce e etc., utilizando as seguintes linguagens/framework: Java, JSF, Spring, JavaScript, Primefaces, PrimeNG, BootStrap, jQuery, JPA, Hibernate, NodeJS e Angular.",
+            "outsourcing": ""
+          },
+          {
+            "office": "Analista de Suporte",
+            "company": "NetPro Networking",
+            "year": "2017 - 2017",
+            "description": "Instalação, configuração e atualização de softwares; Instalação de sistema operacional; Manutenção e instalação de impressoras; Suporte ao usuário segundo nível.",
+            "outsourcing": "Cliente: Ipiranga"
+          },
+          {
+            "office": "Analista de Suporte",
+            "company": "Supermercado Zona Sul",
+            "year": "2016 - 2016",
+            "description": "Instalação, configuração e atualização de softwares; Instalação de sistema operacional; Manutenção e instalação de impressoras laser e fiscais; Manutenção de PDV’s; Suporte ao usuário segundo nível; manutenção de banco de dados Oracle. Configuração de coletores de dados Honeywell.",
+            "outsourcing": ""
+          },
+          {
+            "office": "Técnico em Informática",
+            "company": "Atelier dos Sabores",
+            "year": "2015 - 2016",
+            "description": "Instalação, configuração e atualização de softwares; criação e manutenção de rotinas de segurança; Instalação de sistema operacional; Manutenção e instalação de impressoras; Suporte ao usuário segundo nível; manutenção de sistema em Java; manutenção de banco de dados MySql e SQL Sever; rotinas de backup Windows Server.",
+            "outsourcing": ""
+          },
+          {
+            "office": "Analista de Suporte",
+            "company": "Processor Max",
+            "year": "2014 - 2015",
+            "description": "Instalação, configuração e atualização de softwares; criação e manutenção de rotinas de segurança; instalação de sistema operacional; definir política de controle de conteúdo; atendimento Help Desk; configurar contas de correio eletrônico; instalar e manter sistemas de Gestão; suporte ao usuário segundo nível.",
+            "outsourcing": "Cliente: Ipiranga"
+          },
+          {
+            "office": "Assistente Técnico em Informática",
+            "company": "Luxor Way",
+            "year": "2012 - 2012",
+            "description": "Montagem e manutenção de computadores; instalação de sistema operacional; manipulação de arquivos; manutenção de software; configurar contas de correio eletrônico; auxílio na configuração e manutenção de rede; suporte ao usuário.",
+            "outsourcing": ""
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+<app-banner></app-banner>
+
+<div class="container-fluid">
+  <div class="row p-30-0">
+    <div class="col-lg-6">
+      <div class="art-section-title">
+        <div class="art-title-frame">
+          <h4>Formação</h4>
+        </div>
+      </div>
+
+      <div class="art-timeline art-gallery">
+        <div class="art-timeline-item" *ngFor="let educ of education">
+          <div class="art-timeline-mark-light"></div>
+          <div class="art-timeline-mark"></div>
+
+          <div class="art-a art-timeline-content">
+            <div class="art-card-header">
+              <div class="art-left-side">
+                <h5>{{ educ.title }}</h5>
+                <div class="art-el-suptitle mb-15">{{ educ.institution }}</div>
+              </div>
+              <div class="art-right-side">
+                <span class="art-date">{{ educ.year }}</span>
+              </div>
+            </div>
+
+            <p [innerHTML]="educ.description"></p>
+            <a data-fancybox="diplome" [href]="educ.href" class="art-link art-color-link art-w-chevron">{{
+              educ.title_href
+            }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6">
+      <div class="art-section-title">
+        <div class="art-title-frame">
+          <h4>Experiências</h4>
+        </div>
+      </div>
+
+      <div class="art-timeline">
+        <div class="art-timeline-item" *ngFor="let work of works">
+          <div class="art-timeline-mark-light"></div>
+          <div class="art-timeline-mark"></div>
+
+          <div class="art-a art-timeline-content">
+            <div class="art-card-header">
+              <div class="art-left-side">
+                <h5>{{ work.company }}</h5>
+                <div class="art-el-suptitle mb-15">{{ work.office }}</div>
+              </div>
+              <div class="art-right-side">
+                <span class="art-date">{{ work.year }}</span>
+              </div>
+            </div>
+            <p
+              [innerHTML]="
+                work.description.length > 100 ? (work.description | slice : 0 : 300) + '...' : work.description
+              "></p>
+            <span class="art-link art-color-link">{{ work.outsourcing }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-brand></app-brand>
+
+<app-footer></app-footer>

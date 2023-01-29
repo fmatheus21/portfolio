@@ -1,0 +1,72 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="art-section-title">
+        <div class="art-title-frame">
+          <h4>Depoimentos</h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- slide -->
+    <div class="col-lg-12">
+      <div class="swiper-container art-testimonial-slider" style="overflow: visible">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" *ngFor="let object of testimonials">
+            <div class="art-a art-testimonial">
+              <div class="testimonial-body">
+                <img class="art-testimonial-face" [src]="object.image" alt="logo" />
+                <h5>{{ object.client }}</h5>
+                <div class="art-el-suptitle mb-15">{{ object.category }}</div>
+                <div class="mb-15" [innerHTML]="object.description"></div>
+              </div>
+              <div class="art-testimonial-footer">
+                <div class="art-left-side">
+                  <ul class="art-star-rate">
+                    <li *ngIf="object.stars[0].one"><i class="fas fa-star"></i></li>
+                    <li *ngIf="object.stars[0].two"><i class="fas fa-star"></i></li>
+                    <li *ngIf="object.stars[0].three"><i class="fas fa-star"></i></li>
+                    <li *ngIf="object.stars[0].four"><i class="fas fa-star"></i></li>
+                    <li *ngIf="object.stars[0].five"><i class="fas fa-star"></i></li>
+                  </ul>
+                </div>
+                <div class="art-right-side"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- slide -->
+
+    <!-- slider navigation -->
+    <div class="col-lg-12">
+      <div class="art-slider-navigation">
+        <!-- left side -->
+        <div class="art-sn-left">
+          <!-- slider pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- left side end -->
+
+        <!-- right side -->
+        <div class="art-sn-right">
+          <!-- slider navigation -->
+          <div class="art-slider-nav-frame">
+            <!-- prev -->
+            <div class="art-slider-nav art-testi-swiper-prev">
+              <i class="fas fa-chevron-left"></i>
+            </div>
+            <!-- next -->
+            <div class="art-slider-nav art-testi-swiper-next">
+              <i class="fas fa-chevron-right"></i>
+            </div>
+          </div>
+          <!-- slider navigation -->
+        </div>
+        <!-- right side end -->
+      </div>
+    </div>
+    <!-- slider navigation -->
+  </div>
+</div>

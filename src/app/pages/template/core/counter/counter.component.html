@@ -1,0 +1,13 @@
+<div class="container-fluid">
+  <div class="row p-30-0">
+    <div class="col-md-3 col-6" *ngFor="let count of counts">
+      <div class="art-counter-frame">
+        <div class="art-counter-box">
+          <span class="art-counter">{{ count.number }}</span
+          ><span class="art-counter-plus">+</span>
+        </div>
+        <h6>{{ count.description }}</h6>
+      </div>
+    </div>
+  </div>
+</div>
