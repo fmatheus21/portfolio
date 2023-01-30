@@ -5,12 +5,12 @@
     <div class="col-lg-6">
       <div class="art-section-title">
         <div class="art-title-frame">
-          <h4>Formação</h4>
+          <h4>Formação Acadêmica</h4>
         </div>
       </div>
 
       <div class="art-timeline art-gallery">
-        <div class="art-timeline-item" *ngFor="let educ of education">
+        <div class="art-timeline-item" *ngFor="let educ of diplomas">
           <div class="art-timeline-mark-light"></div>
           <div class="art-timeline-mark"></div>
 
@@ -35,6 +35,38 @@
     </div>
 
     <div class="col-lg-6">
+      <div class="art-section-title">
+        <div class="art-title-frame">
+          <h4>Formação Complementar</h4>
+        </div>
+      </div>
+
+      <div class="art-timeline art-gallery">
+        <div class="art-timeline-item" *ngFor="let certificate of certificates">
+          <div class="art-timeline-mark-light"></div>
+          <div class="art-timeline-mark"></div>
+
+          <div class="art-a art-timeline-content">
+            <div class="art-card-header">
+              <div class="art-left-side">
+                <h5>{{ certificate.title }}</h5>
+                <div class="art-el-suptitle mb-15">{{ certificate.institution }}</div>
+              </div>
+              <div class="art-right-side">
+                <span class="art-date">{{ certificate.year }}</span>
+              </div>
+            </div>
+
+            <p [innerHTML]="certificate.description"></p>
+            <a data-fancybox="diplome" [href]="certificate.href" class="art-link art-color-link art-w-chevron">{{
+              certificate.title_href
+            }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--<div class="col-lg-6">
       <div class="art-section-title">
         <div class="art-title-frame">
           <h4>Experiências</h4>
@@ -64,10 +96,8 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
   </div>
 </div>
-
-<app-brand></app-brand>
 
 <app-footer></app-footer>

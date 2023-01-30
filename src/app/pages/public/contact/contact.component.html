@@ -1,1 +1,93 @@
-<p>contact works!</p>
+<app-banner></app-banner>
+
+<div class="container-fluid">
+  <div class="row p-30-0">
+    <div class="col-lg-12">
+      <div class="art-section-title">
+        <div class="art-title-frame">
+          <h4>Informações de Contato</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="art-a art-card">
+        <div class="art-table p-15-15">
+          <ul>
+            <li *ngFor="let resid of residence">
+              <h6>{{ resid.name }}:</h6>
+              <span>{{ resid.value }}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="art-a art-card">
+        <div class="art-table p-15-15">
+          <ul>
+            <li *ngFor="let social of socialNetworks">
+              <h6>{{ social.name }}:</h6>
+              <span>
+                <a class="art-link art-color-link art-w-chevron" [href]="social.url" target="_blank">Acessar</a></span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="art-a art-card">
+        <div class="art-table p-15-15">
+          <ul>
+            <li *ngFor="let contact of contacts">
+              <h6>{{ contact.name }}</h6>
+              <span>{{ contact.value }}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-12">
+      <div class="art-section-title">
+        <div class="art-title-frame">
+          <h4>
+            Entre em Contato
+            <h6 style="color: red">Formulário Indisponível</h6>
+          </h4>
+        </div>
+      </div>
+
+      <div class="art-a art-card">
+        <form class="art-contact-form" autocomplete="on">
+          <div class="art-form-field">
+            <input type="text" formControlName="name" name="name" class="art-input" placeholder="Nome" disabled />
+            <label><i class="fas fa-user"></i></label>
+          </div>
+
+          <div class="art-form-field">
+            <input type="email" name="email" class="art-input" placeholder="Email" disabled />
+            <label><i class="fas fa-at"></i></label>
+          </div>
+
+          <div class="art-form-field">
+            <textarea name="text" name="message" class="art-input" placeholder="Mensagem" disabled></textarea>
+            <label><i class="far fa-envelope"></i></label>
+          </div>
+
+          <div class="art-submit-frame">
+            <button type="button" class="art-btn art-btn-md art-submit" disabled>
+              <span>Enviar Mensagem</span>
+            </button>
+            <div class="art-success">Success <i class="fas fa-check"></i></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

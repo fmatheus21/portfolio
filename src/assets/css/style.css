@@ -2072,6 +2072,7 @@ content
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  padding-bottom: 30px;
 }
 
 .art-slider-navigation .swiper-pagination-bullet {
