@@ -238,243 +238,59 @@
         ],
         "certificates": [
           {
-            "title": "Kotlin",
-            "institution": "Alura",
-            "year": "2021 - 2021",
-            "description": "Kotlin: Desenvolva com Coleções, Arrays e Listas.",
-            "href": "./assets/files/summary/kotlin/desenvolva-com-colecoes-arrays-e-listas.pdf",
+            "title": "Angular",
+            "institution": "DIO",
+            "year": "2023 - 2023",
+            "description": "Ganhando Produtividade com Angular; Introdução ao Ecossistema Angular; LifeCycle Hooks Angular; Módulos Angular; Single Page Application com Angular; Trabalhando com Componentes Angular; Trabalhando com Rotas no Angular; Trabalhando com Services no Angular; TypeScript para Angular; Trabalhando com Web Components no Front-end.",
+            "href": "./assets/files/summary/angular_dio.pdf",
             "title_href": "Certificado"
           },
           {
-            "title": "Kotlin",
-            "institution": "Alura",
-            "year": "2021 - 2021",
-            "description": "Formação Kotlin.",
-            "href": "./assets/files/summary/kotlin/formacao-kotlin.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "Kotlin",
-            "institution": "Alura",
-            "year": "2021 - 2021",
-            "description": "Kotlin: Herança, Polimorfismo e Interface.",
-            "href": "./assets/files/summary/kotlin/heranca-polimorfismo-e-interface.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "Kotlin",
-            "institution": "Alura",
-            "year": "2021 - 2021",
-            "description": "Kotlin: Lidando com Exceptions e Referências Nulas.",
-            "href": "./assets/files/summary/kotlin/lidando-com-exceptions-e-referencias-nulas.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "Kotlin",
-            "institution": "Alura",
-            "year": "2021 - 2021",
-            "description": "Kotlin: Orientacao a Objetos.",
-            "href": "./assets/files/summary/kotlin/orientacao-a-objetos.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "Kotlin",
-            "institution": "Alura",
-            "year": "2021 - 2021",
-            "description": "Kotlin: Primeiros Passos e Orientação a Objetos.",
-            "href": "./assets/files/summary/kotlin/primeiros-passos-e-orientacao-a-objetos.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "Kotlin",
-            "institution": "Alura",
-            "year": "2021 - 2021",
-            "description": "Kotlin: Recursos da Linguagem com Pacotes e Composição.",
-            "href": "./assets/files/summary/kotlin/recursos-da-linguagem-com-pacotes-e-composicao.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "React JS",
-            "institution": "Alura",
-            "year": "2021 - 2021",
-            "description": "React JS: Ciclo de Vida dos Componentes.",
-            "href": "./assets/files/summary/reactjs/ciclo-de-vida-dos-componentes.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "React JS",
-            "institution": "Alura",
-            "year": "2021 - 2021",
-            "description": "React JS: Entendendo como a Biblioteca Funciona.",
-            "href": "./assets/files/summary/reactjs/entendendo-como-a-biblioteca-funciona.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "React JS",
-            "institution": "Alura",
-            "year": "2021 - 2021",
-            "description": "React JS: Function Components, uma Abordagem Moderna.",
-            "href": "./assets/files/summary/reactjs/function-components-uma-abordagem-moderna.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "React JS",
-            "institution": "Alura",
-            "year": "2021 - 2021",
-            "description": "React JS: Interfaces e Herancas em Orientecao a Objetos.",
-            "href": "./assets/files/summary/reactjs/interfaces-e-herancas-em-orientecao-a-objetos.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "React JS",
-            "institution": "Alura",
-            "year": "2021 - 2021",
-            "description": "React JS: Orientaco a Objetos.",
-            "href": "./assets/files/summary/reactjs/orientaco-a-objetos.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "Java",
-            "institution": "Digital Innovation One",
-            "year": "2021 - 2021",
-            "description": "Java: Criando Aplicações Web com Spring Web MVC.",
-            "href": "./assets/files/summary/java/criando-aplicacoes-web-com-spring-web-mvc.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "Scrum",
-            "institution": "Digital Innovation One",
-            "year": "2021 - 2021",
-            "description": "Scrum: Projetos Ageis com Scrum.",
-            "href": "./assets/files/summary/scrum/projetos-ageis-com-scrum.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "Microservices Java",
-            "institution": "Alura",
-            "year": "2022 - 2022",
-            "description": "Microservices: Padrôes de Projeto.",
-            "href": "./assets/files/summary/java/microservices-padroes-de-projetos.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "Microservices Java",
-            "institution": "Alura",
-            "year": "2022 - 2022",
-            "description": "Microservices na Prática: Implementando com Java e Spring.",
-            "href": "./assets/files/summary/java/microservices-na-pratica-implementando-com-java-e-spring.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "Microservices Java",
-            "institution": "Alura",
-            "year": "2022 - 2022",
-            "description": "Microservices na Prática: Entendendo a Tomada De Decisões.",
-            "href": "./assets/files/summary/java/microsservices-na-pratica-entendendo-tomada-decisoes.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "Microservices Java",
-            "institution": "Alura",
-            "year": "2022 - 2022",
-            "description": "Microservices com Spring Cloud: Circuit Breaker, Hystrix e API Gateway.",
-            "href": "./assets/files/summary/java/microservices-spring-cloud-circuit-braeker-hystrix-api-gateway.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "Microservices Java",
-            "institution": "Alura",
-            "year": "2022 - 2022",
-            "description": "Microservices com Spring Cloud: Registry, Config Server e Distributed Tracing.",
-            "href": "./assets/files/summary/java/microservices-spring-cloud-registry-config-server-distributed-tracing.pdf",
+            "title": "Java Microservices",
+            "institution": "Udemy",
+            "year": "2022 - 2023",
+            "description": "Certificação Amazon AWS; Criando Microsservices com AWS ECSS Fargate e AWS CDK; Microservices com Spring Cloud; Domine Microservices e Mensageria.",
+            "href": "./assets/files/summary/java_microservicos_udemy.pdf",
             "title_href": "Certificado"
           },
           {
             "title": "Java",
             "institution": "Alura",
             "year": "2022 - 2022",
-            "description": "Java: Novidades e Recursos das Versões 9 a 14.",
-            "href": "./assets/files/summary/java/novidades-recursos-versoes-9-a14.pdf",
+            "description": "Novidades e Recursos das Versões 9 a 14; Microsserviços na Prática; Padrões de Projetos; Microservices com Spring Cloud.",
+            "href": "./assets/files/summary/java_alura.pdf",
+            "title_href": "Certificado"
+          },
+          {
+            "title": "Java - Testes",
+            "institution": "Udemy",
+            "year": "2022 - 2022",
+            "description": "Integração Contínua com Testes; Testes Unitários com JUnit 5 e Mockito; Arquitetura Hexagonal; Design de API's RestFull, TDD e JUnit 5.",
+            "href": "./assets/files/summary/java_udemy.pdf",
             "title_href": "Certificado"
           },
           {
             "title": "React Native",
             "institution": "Alura",
             "year": "2022 - 2022",
-            "description": "React Native: Criando um App.",
-            "href": "./assets/files/summary/react-native/react-native-criando-primeiro-app.pdf",
+            "description": "Criando um App.",
+            "href": "./assets/files/summary/react_native_alura.pdf",
             "title_href": "Certificado"
           },
           {
-            "title": "Angular",
-            "institution": "Digital Innovation One",
-            "year": "2022 - 2022",
-            "description": "Angular: Tecnicas Avançadas em Angular 8.",
-            "href": "./assets/files/summary/angular/tecnicas-avançadas-em-angular-8.pdf",
+            "title": "Kotlin",
+            "institution": "Alura",
+            "year": "2021 - 2021",
+            "description": "Recursos da Linguagem com Pacotes e Composição; Desenvolva com Coleções, Arrays e Listas; Herança, Polimorfismo e Interface; Orientação a Objetos.",
+            "href": "./assets/files/summary/kotlin_alura.pdf",
             "title_href": "Certificado"
           },
           {
-            "title": "Java",
-            "institution": "Udemy",
-            "year": "2022 - 2022",
-            "description": "Arquitetua Hexagonal com Java.",
-            "href": "./assets/files/summary/java/arquitetua-hexagonal-com-java.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "Microservices Java",
-            "institution": "Udemy",
-            "year": "2022 - 2022",
-            "description": "Criando microsserviços em Java com AWS ECS Fargate e AWS CDK.",
-            "href": "./assets/files/summary/java/criando-microsservicos-em-java-com-aws-ecs-fargate-e-aws-cdk.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "Microservices Java",
-            "institution": "Udemy",
-            "year": "2022 - 2022",
-            "description": "Criando microsserviços em Java com AWS ECS Fargate e AWS CDK.",
-            "href": "./assets/files/summary/java/criando-microsservicos-em-java-com-aws-ecs-fargate-e-aws-cdk.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "Java",
-            "institution": "Udemy",
-            "year": "2022 - 2022",
-            "description": "Design de API's RestFull com Spring Boot, TDD e jUnit5.",
-            "href": "./assets/files/summary/java/design-de-apis-restful-com-spring-boot-tdd-e-junit5.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "Java",
-            "institution": "Udemy",
-            "year": "2022 - 2022",
-            "description": "Integração Contínua com Tests, Utilizando Jenkins.",
-            "href": "./assets/files/summary/java/integracao-continua-com-testes-utilizando-jenkins.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "Microservices Java",
-            "institution": "Udemy",
-            "year": "2022 - 2022",
-            "description": "Microservices com Spring Cloud, Spring Boot e Docker.",
-            "href": "./assets/files/summary/java/microservices-com-spring-cloud-spring-boot-e-docker.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "Microservices Java",
-            "institution": "Udemy",
-            "year": "2022 - 2022",
-            "description": "Microservices e Mensageria com Spring Cloud e Docker.",
-            "href": "./assets/files/summary/java/microservicos-mensageria-spring-cloud-docker.pdf",
-            "title_href": "Certificado"
-          },
-          {
-            "title": "Microservices Java",
-            "institution": "Udemy",
-            "year": "2022 - 2022",
-            "description": "Testes com JUnit5, Mockito e Spring Boot.",
-            "href": "./assets/files/summary/java/testes-junit5-mockito-spring-boot.pdf",
+            "title": "React JS",
+            "institution": "Alura",
+            "year": "2021 - 2021",
+            "description": "Entendendo como a Biblioteca Funciona; Function Components, uma Abordagem Moderna; Interfaces e Herança em Orientação a Objetos; Programando a Orientação a Objetos; Ciclo de Vida dos Componentes.",
+            "href": "./assets/files/summary/reactjs_alura.pdf",
             "title_href": "Certificado"
           }
         ],
