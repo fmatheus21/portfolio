@@ -405,20 +405,102 @@
       {
         "projetos": [
           {
-            "id": 1,
-            "title": "title",
-            "description": "description",
-            "image": "./assets/files/portfolio/1.jpg",
-            "thumbnail": "./assets/files/portfolio/thumbnail/1.jpg",
-            "url": "portfolio/1"
+            "title": "Gigasite",
+            "description": "GIGASITE é uma agência de marketing digital focada em resultados. Somos especialistas em Criação de Website’s e E-commerce’s.",
+            "image": "./assets/files/portfolio/gigasite/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/gigasite/thumbnail.png",
+            "url": "https://www.gigasite.com.br"
           },
           {
-            "id": 2,
-            "title": "title",
-            "description": "description",
-            "image": "./assets/files/portfolio/1.png",
-            "thumbnail": "./assets/files/portfolio/thumbnail/1.jpg",
-            "url": "portfolio/1"
+            "title": "GL Piscinas",
+            "description": "Somos uma empresa familiar (pai e filhos), criada a 10 anos, devido a experiência de mais 30 anos do patriarca, juntamos essa experiência a juventude dos filhos criamos a G.L.PISCINAS.",
+            "image": "./assets/files/portfolio/glpiscina/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/glpiscina/thumbnail.png",
+            "url": "https://www.glpiscinasrio.com.br"
+          },
+          {
+            "title": "PRAM Construtora",
+            "description": "A PRAM Construtora através dos seus parceiros financeiros oferece soluções no seguimento da construção civil, viabilizando os recursos e construindo seu empreendimento em todo o Brasil.",
+            "image": "./assets/files/portfolio/pramconstrutora/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/pramconstrutora/thumbnail.png",
+            "url": "https://pramconstrutora.com.br"
+          },
+          {
+            "title": "RL Consultoria",
+            "description": "Com sede no Rio de Janeiro, a RL Consultoria foi fundada em 2015, a partir da idéia de um executivo, com mais de 15 anos de experiência no mercado de saúde suplementar. Destaca-se por possuir uma assessoria especializada em corretagem de planos de saúde: individuais, familiares, por adesão e para micro, pequenas e médias empresas.",
+            "image": "./assets/files/portfolio/rlconsultoriasaude/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/rlconsultoriasaude/thumbnail.png",
+            "url": "https://rlconsultoriasaude.com.br"
+          },
+          {
+            "title": "Gomes e Jardim Advogados",
+            "description": "Nesses mais de 20 anos de experiência na advocacia, com a evolução do mundo digital, temos aprimorado nossos serviços para melhor atendermos nossos clientes. Hoje contamos com um escritório digital, por meio de vídeo conferências, consultorias e reuniões online. ",
+            "image": "./assets/files/portfolio/gomesejardim/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/gomesejardim/thumbnail.png",
+            "url": "https://gomesejardimadvogados.com.br"
+          },
+          {
+            "title": "Transluna",
+            "description": "Transluna Caminhão Pipa é uma empresa comprometida com os seus Clientes & Parceiros. Nossos profissionais são altamente treinados, qualificados e com vasta experiência em transporte de água potável através de carro pipa.",
+            "image": "./assets/files/portfolio/transluna/dispositivos-1.png",
+            "thumbnail": "./assets/files/portfolio/transluna/thumbnail.png",
+            "url": "https://transluna.com.br"
+          },
+          {
+            "title": "VideTudo Consultoria",
+            "description": "Como o nome já diz, VideTudo surgiu da ideia de uma empreendedora que decidiu que todas suas habilidades de multitarefas poderiam auxiliar pessoas em diversas áreas de suas vidas pessoais e profissionais.",
+            "image": "./assets/files/portfolio/videtudo/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/videtudo/thumbnail.png",
+            "url": "https://videtudoconsultoria.com"
+          },
+          {
+            "title": "Rio Futsal",
+            "description": "A Rio Futsal foi criada no dia 07 de Setembro de 2003 com a intenção de populçarizar o esporte e incluir crianças e jovens através dele.",
+            "image": "./assets/files/portfolio/riofutsal/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/riofutsal/thumbnail.png",
+            "url": "http://www.riofutsal.com.br"
+          },
+          {
+            "title": "Conectora",
+            "description": "Tudo começou em 1991 com o dessenvolvimento de uma metodologia de captação, com a fundação do Centro de Estudos e Assessoramento de Empreendedores - CEM",
+            "image": "./assets/files/portfolio/conectora/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/conectora/thumbnail.png",
+            "url": "http://conectoradeoportunidades.org.br"
+          },
+          {
+            "title": "Dr. Dog",
+            "description": "Clínica Veterinária Rd. Dog",
+            "image": "./assets/files/portfolio/drdog.png",
+            "thumbnail": "./assets/files/portfolio/thumbnail/drdog.png",
+            "url": "http://drdogveterinaria.com.br"
+          },
+          {
+            "title": "Espaço Ásia",
+            "description": "Loja de Móveis e Objetos de Decoração.",
+            "image": "./assets/files/portfolio/espaco-asia.png",
+            "thumbnail": "./assets/files/portfolio/thumbnail/espaco-asia.png",
+            "url": "https://www.espacoasia.com.br"
+          },
+          {
+            "title": "Harmonia Clínica",
+            "description": "Harmonia Clínica",
+            "image": "./assets/files/portfolio/harmonia-clinica.png",
+            "thumbnail": "./assets/files/portfolio/thumbnail/harmonia-clinica.png",
+            "url": "http://harmoniaclinica.com.br"
+          },
+          {
+            "title": "Ufficio Care",
+            "description": "Espaço da Saúde em São Caetano do Sul. Psicólogos, Psicanalistas, Nutricionistas e Terapias Alte",
+            "image": "./assets/files/portfolio/ufficio.png",
+            "thumbnail": "./assets/files/portfolio/thumbnail/ufficio.png",
+            "url": "http://ufficiocoworking.com.br"
+          },
+          {
+            "title": "Grupo SGM Consultoria ",
+            "description": "Suporte e assessoria para instituições do terceiro cetor, da criação à prestação de contas.",
+            "image": "./assets/files/portfolio/sgm.png",
+            "thumbnail": "./assets/files/portfolio/thumbnail/sgm.png",
+            "url": "#"
           }
         ]
       }

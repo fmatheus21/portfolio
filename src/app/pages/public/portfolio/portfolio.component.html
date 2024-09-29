@@ -28,10 +28,10 @@
         <!-- description -->
         <div class="art-item-description">
           <!-- title -->
-          <h5 class="mb-15">Project title</h5>
-          <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
+          <h5 class="mb-15">{{ project.title }}</h5>
+          <div class="mb-15">{{ project.description | slice : 0 : 100 }}...</div>
           <!-- button -->
-          <a href="portfolio-single.html" class="art-link art-color-link art-w-chevron">Read more</a>
+          <a [href]="project.url" target="_blank" class="art-link art-color-link art-w-chevron">Visitar</a>
         </div>
         <!-- description end -->
       </div>
