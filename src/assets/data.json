@@ -469,38 +469,52 @@
           },
           {
             "title": "Dr. Dog",
-            "description": "Clínica Veterinária Rd. Dog",
-            "image": "./assets/files/portfolio/drdog.png",
-            "thumbnail": "./assets/files/portfolio/thumbnail/drdog.png",
+            "description": "Cuidamos do seu Animal com carinho. Temos uma equipe de profissionais qualificados e preparados para as mais diversas situações.",
+            "image": "./assets/files/portfolio/drdog/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/drdog/thumbnail.png",
             "url": "http://drdogveterinaria.com.br"
           },
           {
             "title": "Espaço Ásia",
-            "description": "Loja de Móveis e Objetos de Decoração.",
-            "image": "./assets/files/portfolio/espaco-asia.png",
-            "thumbnail": "./assets/files/portfolio/thumbnail/espaco-asia.png",
+            "description": "No Espaço Ásia, um ambiente semi aberto de 7 mim metros em estilo asiático, encontramos uma forma de decorar de forma simples e confortável.",
+            "image": "./assets/files/portfolio/espacoasia/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/espacoasia/thumbnail.png",
             "url": "https://www.espacoasia.com.br"
           },
           {
             "title": "Harmonia Clínica",
-            "description": "Harmonia Clínica",
-            "image": "./assets/files/portfolio/harmonia-clinica.png",
-            "thumbnail": "./assets/files/portfolio/thumbnail/harmonia-clinica.png",
+            "description": "A Clínica Harmonia nasceu para tratar a prevenção, através de palestra e workshps psico educaionais, com foco na importancia do cuidado com a saúde mental em todas as áreas.",
+            "image": "./assets/files/portfolio/harmoniaclinica/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/harmoniaclinica/thumbnail.png",
             "url": "http://harmoniaclinica.com.br"
           },
           {
-            "title": "Ufficio Care",
-            "description": "Espaço da Saúde em São Caetano do Sul. Psicólogos, Psicanalistas, Nutricionistas e Terapias Alte",
-            "image": "./assets/files/portfolio/ufficio.png",
-            "thumbnail": "./assets/files/portfolio/thumbnail/ufficio.png",
+            "title": "Aerobox Club",
+            "description": "Somos um clube de assinatura que oferece para você a experiência de ter todo mês uma box surpres, que todo intusiasta e amanta da aviação deseja receber.",
+            "image": "./assets/files/portfolio/aeroboxclub/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/aeroboxclub/thumbnail.png",
             "url": "http://ufficiocoworking.com.br"
           },
           {
-            "title": "Grupo SGM Consultoria ",
-            "description": "Suporte e assessoria para instituições do terceiro cetor, da criação à prestação de contas.",
-            "image": "./assets/files/portfolio/sgm.png",
-            "thumbnail": "./assets/files/portfolio/thumbnail/sgm.png",
-            "url": "#"
+            "title": "Aliança Associação de Benefícios",
+            "description": "A Aliança é uma Associação de Proteção Veicular, que tem por objetivo proporcionar aos seus associados segurança e tranquilidade ao utilizar o seu patrimônio, somando esforços para garantir uma excelente assistência e sempre buscando as melhores parcerias e serviços.",
+            "image": "./assets/files/portfolio/alianca/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/alianca/thumbnail.png",
+            "url": "https://aliancario.org.br"
+          },
+          {
+            "title": "Portal da Transparência - Carnaubeira da Penha",
+            "description": "Controle social, cidadania e transparência fiscal. Esses são os três princípios deferidos pelo Governo Municipal de Carnaubeira da Penha, colocados em prática ao implementar mais uma iniciativa na gestão pública da cidade.",
+            "image": "./assets/files/portfolio/carnaubeira/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/carnaubeira/thumbnail.png",
+            "url": "http://cedssistemas.com/carnaubeira"
+          },
+          {
+            "title": "COMSIM - Consórcio de Municípios do Sertão de Itaparica e Moxotó",
+            "description": "Visando a promoção e o desenvolvimento político, administrativo, econômico, social e ambiental dos municípios membros.",
+            "image": "./assets/files/portfolio/comsim/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/comsim/thumbnail.png",
+            "url": "http://comsim.pe.gov.br"
           }
         ]
       }
