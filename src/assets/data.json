@@ -403,118 +403,190 @@
 
     "portfolio": [
       {
+        "filtros": [
+          { "name": "Todas", "filter": "*" },
+          { "name": "Esporte", "filter": ".esporte" },
+          { "name": "Saúde", "filter": ".saude" },
+          { "name": "Transporte", "filter": ".transporte" },
+          { "name": "Construção", "filter": ".construcao" },
+          { "name": "Tecnologina", "filter": ".tecnologia" }
+        ],
         "projetos": [
           {
             "title": "Gigasite",
             "description": "GIGASITE é uma agência de marketing digital focada em resultados. Somos especialistas em Criação de Website’s e E-commerce’s.",
             "image": "./assets/files/portfolio/gigasite/macbook/screen.png",
             "thumbnail": "./assets/files/portfolio/gigasite/thumbnail.png",
-            "url": "https://www.gigasite.com.br"
+            "url": "https://www.gigasite.com.br",
+            "filter": "tecnologia"
           },
           {
             "title": "GL Piscinas",
             "description": "Somos uma empresa familiar (pai e filhos), criada a 10 anos, devido a experiência de mais 30 anos do patriarca, juntamos essa experiência a juventude dos filhos criamos a G.L.PISCINAS.",
             "image": "./assets/files/portfolio/glpiscina/macbook/screen.png",
             "thumbnail": "./assets/files/portfolio/glpiscina/thumbnail.png",
-            "url": "https://www.glpiscinasrio.com.br"
+            "url": "https://www.glpiscinasrio.com.br",
+            "filter": "ecommerce"
           },
           {
             "title": "PRAM Construtora",
             "description": "A PRAM Construtora através dos seus parceiros financeiros oferece soluções no seguimento da construção civil, viabilizando os recursos e construindo seu empreendimento em todo o Brasil.",
             "image": "./assets/files/portfolio/pramconstrutora/macbook/screen.png",
             "thumbnail": "./assets/files/portfolio/pramconstrutora/thumbnail.png",
-            "url": "https://pramconstrutora.com.br"
+            "url": "https://pramconstrutora.com.br",
+            "filter": "construcao"
           },
           {
             "title": "RL Consultoria",
             "description": "Com sede no Rio de Janeiro, a RL Consultoria foi fundada em 2015, a partir da idéia de um executivo, com mais de 15 anos de experiência no mercado de saúde suplementar. Destaca-se por possuir uma assessoria especializada em corretagem de planos de saúde: individuais, familiares, por adesão e para micro, pequenas e médias empresas.",
             "image": "./assets/files/portfolio/rlconsultoriasaude/macbook/screen.png",
             "thumbnail": "./assets/files/portfolio/rlconsultoriasaude/thumbnail.png",
-            "url": "https://rlconsultoriasaude.com.br"
+            "url": "https://rlconsultoriasaude.com.br",
+            "filter": "consultoria"
           },
           {
             "title": "Gomes e Jardim Advogados",
             "description": "Nesses mais de 20 anos de experiência na advocacia, com a evolução do mundo digital, temos aprimorado nossos serviços para melhor atendermos nossos clientes. Hoje contamos com um escritório digital, por meio de vídeo conferências, consultorias e reuniões online. ",
             "image": "./assets/files/portfolio/gomesejardim/macbook/screen.png",
             "thumbnail": "./assets/files/portfolio/gomesejardim/thumbnail.png",
-            "url": "https://gomesejardimadvogados.com.br"
+            "url": "https://gomesejardimadvogados.com.br",
+            "filter": "consultoria"
           },
           {
             "title": "Transluna",
             "description": "Transluna Caminhão Pipa é uma empresa comprometida com os seus Clientes & Parceiros. Nossos profissionais são altamente treinados, qualificados e com vasta experiência em transporte de água potável através de carro pipa.",
             "image": "./assets/files/portfolio/transluna/dispositivos-1.png",
             "thumbnail": "./assets/files/portfolio/transluna/thumbnail.png",
-            "url": "https://transluna.com.br"
+            "url": "https://transluna.com.br",
+            "filter": "ecommerce"
           },
           {
             "title": "VideTudo Consultoria",
             "description": "Como o nome já diz, VideTudo surgiu da ideia de uma empreendedora que decidiu que todas suas habilidades de multitarefas poderiam auxiliar pessoas em diversas áreas de suas vidas pessoais e profissionais.",
             "image": "./assets/files/portfolio/videtudo/macbook/screen.png",
             "thumbnail": "./assets/files/portfolio/videtudo/thumbnail.png",
-            "url": "https://videtudoconsultoria.com"
+            "url": "https://videtudoconsultoria.com",
+            "filter": "consultoria"
           },
           {
             "title": "Rio Futsal",
             "description": "A Rio Futsal foi criada no dia 07 de Setembro de 2003 com a intenção de populçarizar o esporte e incluir crianças e jovens através dele.",
             "image": "./assets/files/portfolio/riofutsal/macbook/screen.png",
             "thumbnail": "./assets/files/portfolio/riofutsal/thumbnail.png",
-            "url": "http://www.riofutsal.com.br"
+            "url": "http://www.riofutsal.com.br",
+            "filter": "esporte"
           },
           {
             "title": "Conectora",
             "description": "Tudo começou em 1991 com o dessenvolvimento de uma metodologia de captação, com a fundação do Centro de Estudos e Assessoramento de Empreendedores - CEM",
             "image": "./assets/files/portfolio/conectora/macbook/screen.png",
             "thumbnail": "./assets/files/portfolio/conectora/thumbnail.png",
-            "url": "http://conectoradeoportunidades.org.br"
+            "url": "http://conectoradeoportunidades.org.br",
+            "filter": "consultoria"
           },
           {
             "title": "Dr. Dog",
             "description": "Cuidamos do seu Animal com carinho. Temos uma equipe de profissionais qualificados e preparados para as mais diversas situações.",
             "image": "./assets/files/portfolio/drdog/macbook/screen.png",
             "thumbnail": "./assets/files/portfolio/drdog/thumbnail.png",
-            "url": "http://drdogveterinaria.com.br"
+            "url": "http://drdogveterinaria.com.br",
+            "filter": "saude"
           },
           {
             "title": "Espaço Ásia",
             "description": "No Espaço Ásia, um ambiente semi aberto de 7 mim metros em estilo asiático, encontramos uma forma de decorar de forma simples e confortável.",
             "image": "./assets/files/portfolio/espacoasia/macbook/screen.png",
             "thumbnail": "./assets/files/portfolio/espacoasia/thumbnail.png",
-            "url": "https://www.espacoasia.com.br"
+            "url": "https://www.espacoasia.com.br",
+            "filter": "saude"
           },
           {
             "title": "Harmonia Clínica",
             "description": "A Clínica Harmonia nasceu para tratar a prevenção, através de palestra e workshps psico educaionais, com foco na importancia do cuidado com a saúde mental em todas as áreas.",
             "image": "./assets/files/portfolio/harmoniaclinica/macbook/screen.png",
             "thumbnail": "./assets/files/portfolio/harmoniaclinica/thumbnail.png",
-            "url": "http://harmoniaclinica.com.br"
+            "url": "http://harmoniaclinica.com.br",
+            "filter": "saude"
           },
           {
             "title": "Aerobox Club",
             "description": "Somos um clube de assinatura que oferece para você a experiência de ter todo mês uma box surpres, que todo intusiasta e amanta da aviação deseja receber.",
             "image": "./assets/files/portfolio/aeroboxclub/macbook/screen.png",
             "thumbnail": "./assets/files/portfolio/aeroboxclub/thumbnail.png",
-            "url": "http://ufficiocoworking.com.br"
+            "url": "http://ufficiocoworking.com.br",
+            "filter": "ecommerce"
           },
           {
             "title": "Aliança Associação de Benefícios",
             "description": "A Aliança é uma Associação de Proteção Veicular, que tem por objetivo proporcionar aos seus associados segurança e tranquilidade ao utilizar o seu patrimônio, somando esforços para garantir uma excelente assistência e sempre buscando as melhores parcerias e serviços.",
             "image": "./assets/files/portfolio/alianca/macbook/screen.png",
             "thumbnail": "./assets/files/portfolio/alianca/thumbnail.png",
-            "url": "https://aliancario.org.br"
+            "url": "https://aliancario.org.br",
+            "filter": "consultoria"
           },
           {
             "title": "Portal da Transparência - Carnaubeira da Penha",
             "description": "Controle social, cidadania e transparência fiscal. Esses são os três princípios deferidos pelo Governo Municipal de Carnaubeira da Penha, colocados em prática ao implementar mais uma iniciativa na gestão pública da cidade.",
             "image": "./assets/files/portfolio/carnaubeira/macbook/screen.png",
             "thumbnail": "./assets/files/portfolio/carnaubeira/thumbnail.png",
-            "url": "http://cedssistemas.com/carnaubeira"
+            "url": "http://cedssistemas.com/carnaubeira",
+            "filter": "consultoria"
           },
           {
             "title": "COMSIM - Consórcio de Municípios do Sertão de Itaparica e Moxotó",
             "description": "Visando a promoção e o desenvolvimento político, administrativo, econômico, social e ambiental dos municípios membros.",
             "image": "./assets/files/portfolio/comsim/macbook/screen.png",
             "thumbnail": "./assets/files/portfolio/comsim/thumbnail.png",
-            "url": "http://comsim.pe.gov.br"
+            "url": "http://comsim.pe.gov.br",
+            "filter": "consultoria"
+          },
+          {
+            "title": "Chama o Biu",
+            "description": "Proporcionamos mais tranquilidade e segurança aos passageiros durante as corridas, além de contribuir para que cada passageiro possa se sentir melhor dentro so nosso app.",
+            "image": "./assets/files/portfolio/chamaobiu/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/chamaobiu/thumbnail.png",
+            "url": "http://chamaobiu.com",
+            "filter": "transporte"
+          },
+          {
+            "title": "Grupo SGM",
+            "description": "A sociendade civil é dividida em três setores: primeiro, segundo e terceiro. O primeiro setor é formado pelo Governo, o segundo setor é formado pelas empresas privadas e o terceiro setor são as associações sem fins lucrativos.",
+            "image": "./assets/files/portfolio/gruposgm/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/gruposgm/thumbnail.png",
+            "url": "http://gruposgm.com.br",
+            "filter": "consultoria"
+          },
+          {
+            "title": "RD Andaimes",
+            "description": "Nós da RD Andaimes somos especialistas em locação de andaimes e estruturas para obra. Contate nosso setor comercial e veja as tecnologias que temos disponíveis para a sua obra.",
+            "image": "./assets/files/portfolio/rdandaimes/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/rdandaimes/thumbnail.png",
+            "url": "http://gruposgm.com.br",
+            "filter": "construcao"
+          },
+          {
+            "title": "Tecno Silva Aquecedores",
+            "description": "Tecno Silva Aquecedores é lider no setor de aquecimento de água no Rio de Janeiro. Para isso a empresa conta com mão de obra qualificada sempre disposta a levar o melhor atendimento aos seus clientes.",
+            "image": "./assets/files/portfolio/tecnosilva_aquecedores/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/tecnosilva_aquecedores/thumbnail.png",
+            "url": "http://tecnosilvaaquecedores.com",
+            "filter": "consultoria"
+          },
+          {
+            "title": "Espaço Alternativo",
+            "description": "O Espaço Alternativo tem como missão atuar na melhora da qualidade de vida, física e emocional das pessoas, aplicando tratamentos holísticos naturais não invasivos como opção aos tratamentos convencionais.",
+            "image": "./assets/files/portfolio/espaco_alternativo/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/espaco_alternativo/thumbnail.png",
+            "url": "http://http://terapiaholisticadomarmorto.com.br",
+            "filter": "saude"
+          },
+          {
+            "title": "Tropicalize Restaurante",
+            "description": "O Espaço Alternativo tem como missão atuar na melhora da qualidade de vida, física e emocional das pessoas, aplicando tratamentos holísticos naturais não invasivos como opção aos tratamentos convencionais.",
+            "image": "./assets/files/portfolio/tropicalize/macbook/screen.png",
+            "thumbnail": "./assets/files/portfolio/tropicalize/thumbnail.png",
+            "url": "http://http://terapiaholisticadomarmorto.com.br",
+            "filter": "restaurante"
           }
         ]
       }

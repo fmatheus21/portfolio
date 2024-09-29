@@ -8,6 +8,7 @@ import { AppService } from 'src/app/core/service/app.service';
 })
 export class PortfolioComponent implements OnInit {
   projects: any[] = [];
+  filters: any[] = [];
 
   constructor(private appService: AppService) {}
 
@@ -17,9 +18,8 @@ export class PortfolioComponent implements OnInit {
 
   load() {
     this.appService.findAll().subscribe(data => {
-      console.log(data); // Verifique no console se os dados estão corretos
-      // Acessando a lista de "projetos" dentro de "portfolio"
       this.projects = data[0].portfolio[0].projetos;
+      this.filters = data[0].portfolio[0].filtros;
     });
   }
 }
